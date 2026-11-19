@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "fields": [
+    "dataset_id",
+    "version",
+    "batch_id",
+    "material",
+    "condition",
+    "label",
+    "split"
+  ],
+  "records": [
+    {
+      "dataset_id": "ds-a",
+      "version": "1",
+      "batch_id": "batch-a",
+      "material": "alloy-x",
+      "condition": "temp-low",
+      "label": "0.21",
+      "split": "train"
+    },
+    {
+      "dataset_id": "ds-a",
+      "version": "1",
+      "batch_id": "batch-b",
+      "material": "alloy-x",
+      "condition": "temp-high",
+      "label": "0.44",
+      "split": "train"
+    },
+    {
+      "dataset_id": "ds-a",
+      "version": "1",
+      "batch_id": "batch-c",
+      "material": "alloy-y",
+      "condition": "temp-low",
+      "label": "0.18",
+      "split": "validation"
+    },
+    {
+      "dataset_id": "ds-a",
+      "version": "2",
+      "batch_id": "batch-d",
+      "material": "alloy-y",
+      "condition": "temp-high",
+      "label": "0.31",
+      "split": "train"
+    }
+  ]
+}
